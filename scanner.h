@@ -1,3 +1,3 @@
-#define TYPE 2
-#define IDENTIFIER 1
-#define CONSTANT 0
+#define IDENTIFIER  1
+#define CONSTANT    100
+#define MAIN        2

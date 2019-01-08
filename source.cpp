@@ -17,6 +17,8 @@ int main()
     while(ntoken)
     {
         printf("%d\n", ntoken);
+        if(ntoken == -1)
+            return 0;
         ntoken = yylex();
     }
     return 0;
